@@ -1,0 +1,23 @@
+[3.734s] Invoking command in '/mnt/c/Users/huiya/Desktop/ros-chat/src/llm_chat_node': PS1=(llama-env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(llama-env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build install --record /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data
+[5.100s] running egg_info
+[5.154s] writing ../../build/llm_chat_node/llm_chat_node.egg-info/PKG-INFO
+[5.167s] writing dependency_links to ../../build/llm_chat_node/llm_chat_node.egg-info/dependency_links.txt
+[5.174s] writing entry points to ../../build/llm_chat_node/llm_chat_node.egg-info/entry_points.txt
+[5.182s] writing requirements to ../../build/llm_chat_node/llm_chat_node.egg-info/requires.txt
+[5.186s] writing top-level names to ../../build/llm_chat_node/llm_chat_node.egg-info/top_level.txt
+[5.316s] reading manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[5.397s] writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[5.401s] running build
+[5.402s] running build_py
+[5.446s] running install
+[5.458s] running install_lib
+[5.642s] running install_data
+[5.719s] running install_egg_info
+[5.789s] removing '/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node-0.1.0-py3.12.egg-info' (and everything under it)
+[5.871s] Copying ../../build/llm_chat_node/llm_chat_node.egg-info to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node-0.1.0-py3.12.egg-info
+[6.215s] running install_scripts
+[6.731s] Installing camera_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin
+[6.746s] Installing llm_chat_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin
+[6.758s] Installing vision_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin
+[6.772s] writing list of installed files to '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log'
+[6.809s] Invoked command in '/mnt/c/Users/huiya/Desktop/ros-chat/src/llm_chat_node' returned '0': PS1=(llama-env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(llama-env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build install --record /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,53 @@
+[3.065s] Invoking command in '/mnt/c/Users/huiya/Desktop/ros-chat/src/llm_chat_node': PS1=(llama-env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(llama-env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build install --record /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data
+[4.085s] running egg_info
+[4.092s] creating ../../build/llm_chat_node/llm_chat_node.egg-info
+[4.131s] writing ../../build/llm_chat_node/llm_chat_node.egg-info/PKG-INFO
+[4.146s] writing dependency_links to ../../build/llm_chat_node/llm_chat_node.egg-info/dependency_links.txt
+[4.157s] writing requirements to ../../build/llm_chat_node/llm_chat_node.egg-info/requires.txt
+[4.162s] writing top-level names to ../../build/llm_chat_node/llm_chat_node.egg-info/top_level.txt
+[4.172s] writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[4.341s] reading manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[4.404s] writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[4.407s] running build
+[4.408s] running build_py
+[4.415s] creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build
+[4.417s] creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib
+[4.419s] creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[4.431s] copying llm_chat_node/camera_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[4.457s] copying llm_chat_node/vision_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[4.486s] copying llm_chat_node/__init__.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[4.505s] running build_scripts
+[4.510s] creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12
+[4.519s] copying and adjusting llm_chat_node/llm_chat_node -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12
+[4.530s] copying and adjusting llm_chat_node/vision_node -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12
+[4.544s] copying and adjusting llm_chat_node/camera_node -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12
+[4.564s] running install
+[4.578s] running install_lib
+[4.655s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node
+[4.675s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/camera_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node
+[4.723s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/vision_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node
+[4.773s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/__init__.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node
+[4.841s] byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/camera_node.py to camera_node.cpython-312.pyc
+[4.934s] byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/vision_node.py to vision_node.cpython-312.pyc
+[5.031s] byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/__init__.py to __init__.cpython-312.pyc
+[5.102s] running install_data
+[5.114s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index
+[5.118s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index
+[5.122s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages
+[5.138s] copying resource/llm_chat_node -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages
+[5.178s] copying package.xml -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node
+[5.210s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[5.227s] copying launch/llm_chat_launch.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[5.266s] copying launch/vision_chat_launch.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[5.298s] running install_egg_info
+[5.368s] Copying ../../build/llm_chat_node/llm_chat_node.egg-info to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node-0.1.0-py3.12.egg-info
+[5.789s] running install_scripts
+[5.844s] creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[5.863s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12/camera_node -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[5.911s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12/llm_chat_node -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[5.959s] copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/scripts-3.12/vision_node -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[5.987s] changing mode of /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node/camera_node to 777
+[5.993s] changing mode of /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node/llm_chat_node to 777
+[5.999s] changing mode of /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node/vision_node to 777
+[6.364s] writing list of installed files to '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log'
+[6.403s] Invoked command in '/mnt/c/Users/huiya/Desktop/ros-chat/src/llm_chat_node' returned '0': PS1=(llama-env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(llama-env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build install --record /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data

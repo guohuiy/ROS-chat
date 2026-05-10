@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (llm_chat_node) JobQueued: {'identifier': 'llm_chat_node', 'dependencies': OrderedDict()}
+[0.001215] (llm_chat_node) JobStarted: {'identifier': 'llm_chat_node'}
+[0.099121] (-) TimerEvent: {}
+[0.204864] (-) TimerEvent: {}
+[0.308085] (-) TimerEvent: {}
+[0.413239] (-) TimerEvent: {}
+[0.519037] (-) TimerEvent: {}
+[0.619698] (-) TimerEvent: {}
+[0.724883] (-) TimerEvent: {}
+[0.829432] (-) TimerEvent: {}
+[0.935221] (-) TimerEvent: {}
+[1.040785] (-) TimerEvent: {}
+[1.145463] (-) TimerEvent: {}
+[1.251164] (-) TimerEvent: {}
+[1.357081] (-) TimerEvent: {}
+[1.462188] (-) TimerEvent: {}
+[1.568043] (-) TimerEvent: {}
+[1.673261] (-) TimerEvent: {}
+[1.777453] (-) TimerEvent: {}
+[1.880557] (-) TimerEvent: {}
+[1.981290] (-) TimerEvent: {}
+[2.083041] (-) TimerEvent: {}
+[2.187628] (-) TimerEvent: {}
+[2.292157] (-) TimerEvent: {}
+[2.397174] (-) TimerEvent: {}
+[2.502330] (-) TimerEvent: {}
+[2.607658] (-) TimerEvent: {}
+[2.713565] (-) TimerEvent: {}
+[2.818475] (-) TimerEvent: {}
+[2.923551] (-) TimerEvent: {}
+[3.028420] (-) TimerEvent: {}
+[3.133914] (-) TimerEvent: {}
+[3.188715] (llm_chat_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/llm_chat_node', 'build', '--build-base', '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build', 'install', '--record', '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/huiya/Desktop/ros-chat/src/llm_chat_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huiya', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/huiya', 'OLDPWD': '/mnt/c/Users/huiya/Desktop/ros-chat', 'ROS_PYTHON_VERSION': '3', 'PS1': '(llama-env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/huiya/Desktop/ros-chat/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huiya', 'NAME': 'GHY', 'WSL_INTEROP': '/run/WSL/61218_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/mnt/c/Users/huiya/Desktop/ros-chat/llama-env/bin:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin:/usr/local/cuda-12.6/bin:/opt/ros/jazzy/bin:/home/huiya/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/huiya/miniconda3:/mnt/c/Users/huiya/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/huiya/miniconda3/Library/usr/bin:/mnt/c/Users/huiya/miniconda3/Library/bin:/mnt/c/Users/huiya/miniconda3/Scripts:/mnt/c/Users/huiya/miniconda3/bin:/mnt/c/Users/huiya/miniconda3/condabin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PowerShell/7:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0:/mnt/c/Users/huiya/.local/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Users/huiya/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/huiya/AppData/Local/Programs/Ollama:/mnt/c/TensorRT-10.10.0.31/bin:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA/CUDNN/v9.13/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64:/mnt/c/cmake-3.30.5-windows-x86_64/bin:/mnt/c/Users/huiya/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Qt/6.10.1/mingw_64/bin:/mnt/c/Qt/6.10.1/mingw_64:/mnt/c/Qt/Tools/mingw1310_64/bin:/mnt/c/Users/huiya/.dotnet/tools:/mnt/c/Users/huiya/AppData/Roaming/npm:/snap/bin:/home/huiya/.local/bin', 'WT_SESSION': '16345847-8ec9-43d3-9c01-48015ecf4176', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(llama-env)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/mnt/c/Users/huiya/Desktop/ros-chat/llama-env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:/mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.235136] (-) TimerEvent: {}
+[3.339890] (-) TimerEvent: {}
+[3.444880] (-) TimerEvent: {}
+[3.549509] (-) TimerEvent: {}
+[3.651904] (-) TimerEvent: {}
+[3.757614] (-) TimerEvent: {}
+[3.863396] (-) TimerEvent: {}
+[3.968546] (-) TimerEvent: {}
+[4.069547] (-) TimerEvent: {}
+[4.130283] (llm_chat_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.135713] (llm_chat_node) StdoutLine: {'line': b'creating ../../build/llm_chat_node/llm_chat_node.egg-info\n'}
+[4.167330] (llm_chat_node) StdoutLine: {'line': b'writing ../../build/llm_chat_node/llm_chat_node.egg-info/PKG-INFO\n'}
+[4.169726] (-) TimerEvent: {}
+[4.181209] (llm_chat_node) StdoutLine: {'line': b'writing dependency_links to ../../build/llm_chat_node/llm_chat_node.egg-info/dependency_links.txt\n'}
+[4.187284] (llm_chat_node) StdoutLine: {'line': b'writing entry points to ../../build/llm_chat_node/llm_chat_node.egg-info/entry_points.txt\n'}
+[4.195333] (llm_chat_node) StdoutLine: {'line': b'writing requirements to ../../build/llm_chat_node/llm_chat_node.egg-info/requires.txt\n'}
+[4.199107] (llm_chat_node) StdoutLine: {'line': b'writing top-level names to ../../build/llm_chat_node/llm_chat_node.egg-info/top_level.txt\n'}
+[4.207416] (llm_chat_node) StdoutLine: {'line': b"writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'\n"}
+[4.272849] (-) TimerEvent: {}
+[4.305571] (llm_chat_node) StdoutLine: {'line': b"reading manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'\n"}
+[4.376393] (-) TimerEvent: {}
+[4.400939] (llm_chat_node) StdoutLine: {'line': b"writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'\n"}
+[4.406828] (llm_chat_node) StdoutLine: {'line': b'running build\n'}
+[4.408723] (llm_chat_node) StdoutLine: {'line': b'running build_py\n'}
+[4.420441] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build\n'}
+[4.425342] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib\n'}
+[4.431040] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node\n'}
+[4.450418] (llm_chat_node) StdoutLine: {'line': b'copying llm_chat_node/camera_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node\n'}
+[4.477825] (-) TimerEvent: {}
+[4.494688] (llm_chat_node) StdoutLine: {'line': b'copying llm_chat_node/vision_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node\n'}
+[4.538106] (llm_chat_node) StdoutLine: {'line': b'copying llm_chat_node/__init__.py -> /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node\n'}
+[4.561099] (llm_chat_node) StdoutLine: {'line': b'running install\n'}
+[4.573446] (llm_chat_node) StdoutLine: {'line': b'running install_lib\n'}
+[4.577966] (-) TimerEvent: {}
+[4.659598] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node\n'}
+[4.678192] (-) TimerEvent: {}
+[4.694183] (llm_chat_node) StdoutLine: {'line': b'copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/camera_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node\n'}
+[4.773217] (llm_chat_node) StdoutLine: {'line': b'copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/vision_node.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node\n'}
+[4.778471] (-) TimerEvent: {}
+[4.846503] (llm_chat_node) StdoutLine: {'line': b'copying /mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/__init__.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node\n'}
+[4.880220] (-) TimerEvent: {}
+[4.918109] (llm_chat_node) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/camera_node.py to camera_node.cpython-312.pyc\n'}
+[4.982602] (-) TimerEvent: {}
+[4.990478] (llm_chat_node) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/vision_node.py to vision_node.cpython-312.pyc\n'}
+[5.049010] (llm_chat_node) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node/__init__.py to __init__.cpython-312.pyc\n'}
+[5.084419] (-) TimerEvent: {}
+[5.092417] (llm_chat_node) StdoutLine: {'line': b'running install_data\n'}
+[5.102659] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index\n'}
+[5.105954] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index\n'}
+[5.109730] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages\n'}
+[5.122665] (llm_chat_node) StdoutLine: {'line': b'copying resource/llm_chat_node -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages\n'}
+[5.152970] (llm_chat_node) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node\n'}
+[5.174043] (llm_chat_node) StdoutLine: {'line': b'creating /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch\n'}
+[5.184994] (-) TimerEvent: {}
+[5.185564] (llm_chat_node) StdoutLine: {'line': b'copying launch/llm_chat_launch.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch\n'}
+[5.213400] (llm_chat_node) StdoutLine: {'line': b'copying launch/vision_chat_launch.py -> /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch\n'}
+[5.238864] (llm_chat_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.287525] (-) TimerEvent: {}
+[5.324993] (llm_chat_node) StdoutLine: {'line': b'Copying ../../build/llm_chat_node/llm_chat_node.egg-info to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/lib/python3.12/site-packages/llm_chat_node-0.1.0-py3.12.egg-info\n'}
+[5.390861] (-) TimerEvent: {}
+[5.496572] (-) TimerEvent: {}
+[5.602223] (-) TimerEvent: {}
+[5.622091] (llm_chat_node) StdoutLine: {'line': b'running install_scripts\n'}
+[5.706533] (-) TimerEvent: {}
+[5.811137] (-) TimerEvent: {}
+[5.916131] (-) TimerEvent: {}
+[6.018650] (-) TimerEvent: {}
+[6.110191] (llm_chat_node) StdoutLine: {'line': b'Installing camera_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin\n'}
+[6.118816] (-) TimerEvent: {}
+[6.126272] (llm_chat_node) StdoutLine: {'line': b'Installing llm_chat_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin\n'}
+[6.142141] (llm_chat_node) StdoutLine: {'line': b'Installing vision_node script to /mnt/c/Users/huiya/Desktop/ros-chat/install/llm_chat_node/bin\n'}
+[6.160630] (llm_chat_node) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/huiya/Desktop/ros-chat/build/llm_chat_node/install.log'\n"}
+[6.194876] (llm_chat_node) CommandEnded: {'returncode': 0}
+[6.219256] (-) TimerEvent: {}
+[6.322343] (-) TimerEvent: {}
+[6.427941] (-) TimerEvent: {}
+[6.533678] (-) TimerEvent: {}
+[6.639532] (-) TimerEvent: {}
+[6.662061] (llm_chat_node) JobEnded: {'identifier': 'llm_chat_node', 'rc': 0}
+[6.675653] (-) EventReactorShutdown: {}

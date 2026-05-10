@@ -1,0 +1,51 @@
+[1.069s] Invoking command in '/home/hy/Desktop/ros-chat/src/llm_chat_node': PYTHONPATH=/home/hy/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /home/hy/Desktop/ros-chat/build/llm_chat_node/build install --record /home/hy/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data
+[1.456s] running egg_info
+[1.457s] creating ../../build/llm_chat_node/llm_chat_node.egg-info
+[1.457s] writing ../../build/llm_chat_node/llm_chat_node.egg-info/PKG-INFO
+[1.458s] writing dependency_links to ../../build/llm_chat_node/llm_chat_node.egg-info/dependency_links.txt
+[1.459s] writing entry points to ../../build/llm_chat_node/llm_chat_node.egg-info/entry_points.txt
+[1.459s] writing requirements to ../../build/llm_chat_node/llm_chat_node.egg-info/requires.txt
+[1.459s] writing top-level names to ../../build/llm_chat_node/llm_chat_node.egg-info/top_level.txt
+[1.459s] writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[1.462s] reading manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[1.464s] writing manifest file '../../build/llm_chat_node/llm_chat_node.egg-info/SOURCES.txt'
+[1.465s] running build
+[1.465s] running build_py
+[1.466s] creating /home/hy/Desktop/ros-chat/build/llm_chat_node/build
+[1.467s] creating /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib
+[1.476s] creating /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.477s] copying llm_chat_node/detectors.py -> /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.477s] copying llm_chat_node/utils.py -> /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.477s] copying llm_chat_node/__init__.py -> /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.478s] copying llm_chat_node/camera_node.py -> /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.478s] copying llm_chat_node/vision_node.py -> /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node
+[1.479s] running install
+[1.479s] running install_lib
+[1.479s] creating /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.480s] copying /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/detectors.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.480s] copying /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/utils.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.480s] copying /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/__init__.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.481s] copying /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/camera_node.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.481s] copying /home/hy/Desktop/ros-chat/build/llm_chat_node/build/lib/llm_chat_node/vision_node.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node
+[1.481s] byte-compiling /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node/detectors.py to detectors.cpython-310.pyc
+[1.482s] byte-compiling /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node/utils.py to utils.cpython-310.pyc
+[1.482s] byte-compiling /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node/__init__.py to __init__.cpython-310.pyc
+[1.482s] byte-compiling /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node/camera_node.py to camera_node.cpython-310.pyc
+[1.483s] byte-compiling /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node/vision_node.py to vision_node.cpython-310.pyc
+[1.486s] running install_data
+[1.486s] creating /home/hy/Desktop/ros-chat/install/llm_chat_node/share/ament_index
+[1.487s] creating /home/hy/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index
+[1.487s] creating /home/hy/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages
+[1.488s] copying resource/llm_chat_node -> /home/hy/Desktop/ros-chat/install/llm_chat_node/share/ament_index/resource_index/packages
+[1.488s] copying package.xml -> /home/hy/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node
+[1.489s] creating /home/hy/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[1.489s] copying launch/llm_chat_launch.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[1.489s] copying launch/vision_chat_launch.py -> /home/hy/Desktop/ros-chat/install/llm_chat_node/share/llm_chat_node/launch
+[1.490s] running install_egg_info
+[1.491s] Copying ../../build/llm_chat_node/llm_chat_node.egg-info to /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages/llm_chat_node-0.1.0-py3.10.egg-info
+[1.494s] running install_scripts
+[1.546s] Installing camera_node script to /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[1.546s] Installing llm_chat_node script to /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[1.546s] Installing vision_node script to /home/hy/Desktop/ros-chat/install/llm_chat_node/lib/llm_chat_node
+[1.546s] writing list of installed files to '/home/hy/Desktop/ros-chat/build/llm_chat_node/install.log'
+[1.602s] Invoked command in '/home/hy/Desktop/ros-chat/src/llm_chat_node' returned '0': PYTHONPATH=/home/hy/Desktop/ros-chat/build/llm_chat_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hy/Desktop/ros-chat/install/llm_chat_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/llm_chat_node build --build-base /home/hy/Desktop/ros-chat/build/llm_chat_node/build install --record /home/hy/Desktop/ros-chat/build/llm_chat_node/install.log --single-version-externally-managed install_data

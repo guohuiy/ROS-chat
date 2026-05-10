@@ -1,0 +1,17 @@
+# 忽略构建目录
+build/
+install/
+
+# 忽略编译生成的文件
+*.o
+*.exe
+*.dll
+*.so
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.swp
+
+# 忽略日志文件
+*.log

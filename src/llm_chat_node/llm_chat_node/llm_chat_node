@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""
+Lightweight entry script for development use. When the package is installed
+via setuptools the generated console_scripts will be used instead.
+"""
+from llm_chat_node import main
+
+
+def _run():
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception as e:
+        # Minimal error report for development entry
+        import traceback
+
+        print(f"Error running llm_chat_node entry: {e}")
+        traceback.print_exc()
+
+
+if __name__ == '__main__':
+    _run()
+

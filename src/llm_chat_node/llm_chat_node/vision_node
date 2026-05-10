@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+import sys
+import os
+
+# Add virtual environment site-packages to path
+# Ubuntu 22.04 uses Python 3.10, Ubuntu 24.04 uses Python 3.12
+venv_site = os.path.expanduser('~/Desktop/llama-env/lib/python3.10/site-packages')
+if not os.path.exists(venv_site):
+    venv_site = os.path.expanduser('~/Desktop/llama-env/lib/python3.12/site-packages')
+if os.path.exists(venv_site):
+    sys.path.insert(0, venv_site)
+
+# Add the package directory to path
+pkg_dir = os.path.join(os.path.dirname(__file__), '..', 'python3.10', 'site-packages')
+if not os.path.exists(pkg_dir):
+    pkg_dir = os.path.join(os.path.dirname(__file__), '..', 'python3.12', 'site-packages')
+if os.path.exists(pkg_dir):
+    sys.path.insert(0, pkg_dir)
+
+from llm_chat_node.vision_node import main
+sys.exit(main())
+
+

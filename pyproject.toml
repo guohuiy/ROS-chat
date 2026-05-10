@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm_chat_node"
+version = "0.1.0"
+description = "LLM chat node for ROS2 with vision integration"
+readme = "README.md"
+authors = [ { name = "huiya" } ]
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88

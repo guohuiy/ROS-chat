@@ -1,0 +1,8 @@
+# Input file for pip-compile to generate pinned requirements
+opencv-python
+opencv-contrib-python
+numpy<2
+requests
+onnxruntime
+
+# Note: ROS system packages (rclpy, cv_bridge) are provided by the ROS installation.

@@ -1,0 +1,9 @@
+# Development dependencies for llm_chat_node
+pytest>=7.0.0
+flake8>=6.0.0
+black>=24.0.0
+ruff>=0.24.0
+mypy>=0.991
+
+# Note: ROS packages such as rclpy are provided by the system ROS installation and
+# should NOT be installed via pip in normal ROS workflows.

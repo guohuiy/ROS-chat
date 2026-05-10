@@ -1,0 +1,5 @@
+[console_scripts]
+camera_node = llm_chat_node.camera_node:main
+llm_chat_node = llm_chat_node.__init__:main
+vision_node = llm_chat_node.vision_node:main
+

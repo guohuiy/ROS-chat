@@ -1,0 +1,9 @@
+# ROS2 视觉识别模块依赖
+# 注意：ROS2 Humble 的 cv_bridge 依赖 NumPy 1.x，请勿升级到 NumPy 2.x
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0,<2.0.0
+requests>=2.28.0
+onnxruntime>=1.15.0
+
+
