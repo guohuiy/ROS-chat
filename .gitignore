@@ -1,17 +1,77 @@
-# 忽略构建目录
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# ROS / build artifacts
+/build/
+/install/
+/log/
+build_*/
+
+# Node / frontend
+/frontend/node_modules/
+/frontend/dist/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Editor and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local setup, caches
+.cache/
+pip-wheel-metadata/
+# ���Թ���Ŀ¼
 build/
 install/
 
-# 忽略编译生成的文件
+# ���Ա������ɵ��ļ�
 *.o
 *.exe
 *.dll
 *.so
 
-# 忽略 IDE 配置文件
+# ���� IDE �����ļ�
 .vscode/
 .idea/
 *.swp
 
-# 忽略日志文件
+# ������־�ļ�
 *.log
+log/
+
+# Python ���
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+
+# ǰ�������͹�������
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ģ���ļ������ļ���
+*.onnx
+*.pt
+*.pth
+
+# ϵͳ�ļ�
+.DS_Store
+Thumbs.db
